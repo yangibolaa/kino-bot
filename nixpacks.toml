@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["python310", "gcc"]
+
+[start]
+cmd = "python kino_bot.py"
